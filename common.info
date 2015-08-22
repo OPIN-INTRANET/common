@@ -1,0 +1,33 @@
+name = common
+core = 7.x
+package = Common
+
+; Contributed Modules
+dependencies[] = ctools
+dependencies[] = context
+dependencies[] = composer_manager
+dependencies[] = date
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = image
+dependencies[] = list
+dependencies[] = number
+dependencies[] = options
+dependencies[] = strongarm
+dependencies[] = search_api
+dependencies[] = search_api_solr
+dependencies[] = text
+
+; Components
+dependencies[] = field_body
+dependencies[] = field_project
+dependencies[] = search_server_opin_solr
+dependencies[] = search_index_default
+dependencies[] = user_role_advisors
+dependencies[] = user_role_delivery
+dependencies[] = user_role_executives
+dependencies[] = user_role_finance
+dependencies[] = user_role_sales
+
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2

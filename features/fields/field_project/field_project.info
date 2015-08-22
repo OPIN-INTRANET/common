@@ -1,0 +1,7 @@
+name = field_project
+core = 7.x
+package = Common
+dependencies[] = entityreference
+dependencies[] = features
+features[features_api][] = api:2
+features[field_base][] = field_project

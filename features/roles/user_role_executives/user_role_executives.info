@@ -1,0 +1,8 @@
+name = user_role_executives
+core = 7.x
+package = Common
+version = 7.x-1.0
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = Executives
+project path = sites/all/modules/features

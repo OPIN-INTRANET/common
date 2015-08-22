@@ -1,0 +1,9 @@
+name = search_index_default
+core = 7.x
+package = Common
+version = 7.x-1.0
+dependencies[] = entity
+dependencies[] = search_api
+features[features_api][] = api:2
+features[search_api_index][] = default_node_index
+project path = sites/all/modules/features

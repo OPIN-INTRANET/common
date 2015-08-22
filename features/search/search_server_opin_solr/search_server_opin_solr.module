@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the search_server_opin_solr feature.
+ */
+
+include_once 'search_server_opin_solr.features.inc';
