@@ -1,0 +1,8 @@
+name = title_field
+core = 7.x
+package = Common
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = title_field

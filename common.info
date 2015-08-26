@@ -19,6 +19,7 @@ dependencies[] = search_api_solr
 dependencies[] = text
 
 ; Components
+dependencies[] = title_field
 dependencies[] = field_body
 dependencies[] = field_project
 dependencies[] = search_server_opin_solr
