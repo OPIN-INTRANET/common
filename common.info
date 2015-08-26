@@ -17,6 +17,7 @@ dependencies[] = strongarm
 dependencies[] = search_api
 dependencies[] = search_api_solr
 dependencies[] = text
+dependencies[] = title
 
 ; Components
 dependencies[] = title_field
